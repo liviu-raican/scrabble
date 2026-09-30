@@ -685,7 +685,4 @@ File.WriteAllBytes(outputFilename, SerializeLetterGroup(wordStructure));
 
 return 0;
 
-record GroupComparison(LetterGroup Intersection, LetterGroup Difference, bool Reversed);git init -b main
-git add .
-git status
-git commit -m "Initial commit"
+record GroupComparison(LetterGroup Intersection, LetterGroup Difference, bool Reversed);
