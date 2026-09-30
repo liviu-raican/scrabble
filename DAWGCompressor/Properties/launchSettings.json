@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "LOC5": {
+      "commandName": "Project",
+      "commandLineArgs": "loc5.txt"
+    },
+    "Test mic": {
+      "commandName": "Project",
+      "commandLineArgs": "\"test mic.txt\""
+    },
+    "Test 200": {
+      "commandName": "Project",
+      "commandLineArgs": "\"test 200.txt\""
+    },
+    "Debug": {
+      "commandName": "Project",
+      "commandLineArgs": "debug.txt"
+    }
+  }
+}
