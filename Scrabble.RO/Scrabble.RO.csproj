@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="dictionary.dawgx">
+      <LogicalName>dictionary.dawgx</LogicalName>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Scrabble\Scrabble.csproj" />
-    <ProjectReference Include="..\WordFinder\Dictionary.csproj" />
+    <ProjectReference Include="..\Dictionary\Dictionary.csproj" />
   </ItemGroup>
 
 </Project>

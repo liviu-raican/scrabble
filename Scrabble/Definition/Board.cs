@@ -25,9 +25,9 @@
 
         private readonly Multiplier?[,] squares = (Multiplier?[,])squares.Clone();
 
-        public int Rows { get; } = squares.GetLength(0);
-        public int Columns { get; } = squares.GetLength(1);
+        public uint Rows { get; } = (uint)squares.GetLength(0);
+        public uint Columns { get; } = (uint)squares.GetLength(1);
 
-        public Multiplier? this[int row, int column] => squares[row, column];
+        public Multiplier? this[uint row, uint column] => squares[row, column];
     }
 }
